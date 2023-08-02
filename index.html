@@ -62,6 +62,15 @@
             </li>
           </ul>
         </address>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="mobile-menu-icon" width="32" height="22">
+            <use href="./images/icons.svg#menu-hamburger"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -133,14 +142,17 @@
         </div>
       </section>
       <!-- section two about our job -->
-      <!-- по поводу альтов у данных изображений возникают сомнения -->
       <section class="section-two">
         <div class="do-container container">
           <h2 class="h-two">What are we doing</h2>
           <ul class="images-list list">
             <li class="images-work">
               <img
-                src="./images/desktopapp.jpg"
+                srcset="
+                  ./images/desktopapp@1x.jpg 1x,
+                  ./images/desktopapp@2x.jpg 2x
+                "
+                src="./images/desktopapp@1x.jpg"
                 alt="desktop app"
                 width="360"
                 height="300"
@@ -148,7 +160,11 @@
             </li>
             <li class="images-work">
               <img
-                src="./images/mobilesupport.jpg"
+                srcset="
+                  ./images/mobilesupport@1x.jpg 1x,
+                  ./images/mobilesupport@2x.jpg 2x
+                "
+                src="./images/mobilesupport@1x.jpg"
                 alt="mobile support"
                 width="360"
                 height="300"
@@ -156,7 +172,11 @@
             </li>
             <li class="images-work">
               <img
-                src="./images/mobileapp.jpg"
+                srcset="
+                  ./images/mobileapp@1x.jpg 1x,
+                  ./images/mobileapp@2x.jpg 2x
+                "
+                src="./images/mobileapp@1x.jpg"
                 alt="mobile app"
                 width="360"
                 height="300"
@@ -172,7 +192,11 @@
           <ul class="employee-list list">
             <li class="employee-card">
               <img
-                src="./images/employeephoto1.jpg"
+                srcset="
+                  ./images/employeephoto1@1x.jpg 1x,
+                  ./images/employeephoto1@1x.jpg 2x
+                "
+                src="./images/employeephoto1@1x.jpg"
                 alt="Mark Guerrero photo"
                 width="264"
                 height="260"
@@ -231,7 +255,11 @@
             </li>
             <li class="employee-card">
               <img
-                src="./images/employeephoto2.jpg"
+                srcset="
+                  ./images/employeephoto2@1x.jpg                               1x,
+                  ./images/employeephoto2@2./images/employeephoto2@1x.jpgx.jpg 2x
+                "
+                src="./images/employeephoto2@1x.jpg"
                 alt="Tom Ford photo"
                 width="264"
                 height="260"
@@ -290,7 +318,11 @@
             </li>
             <li class="employee-card">
               <img
-                src="./images/employeephoto3.jpg"
+                srcset="
+                  ./images/employeephoto3@1x.jpg 1x,
+                  ./images/employeephoto3@2x.jpg 2x
+                "
+                src="./images/employeephoto3@1x.jpg"
                 alt="Camila Garcia photo"
                 width="264"
                 height="260"
@@ -348,7 +380,11 @@
             </li>
             <li class="employee-card">
               <img
-                src="./images/employeephoto4.jpg"
+                srcset="
+                  ../images/employeephoto4@1x.jpg 1x,
+                  ../images/employeephoto4@2x.jpg 2x
+                "
+                src="./images/employeephoto4@1x.jpg"
                 alt="Daniel Wilson photo"
                 width="264"
                 height="260"
@@ -635,6 +671,96 @@
       </div>
     </div>
 
+    <!-- ? Mobilka -->
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="8"
+          height="8"
+        >
+          <use href="./images/icons.svg#close-black-menu"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li class="mobile-menu-list">
+          <a class="mobile-menu-link active" href="./index.html">Studio</a>
+        </li>
+        <li class="mobile-menu-list">
+          <a class="mobile-menu-link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="mobile-menu-list">
+          <a class="mobile-menu-link" href="">Contacts</a>
+        </li>
+      </ul>
+      <ul class="address-mobile list">
+        <li class="address-mobile-list">
+          <a class="address-mobile-tel link" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li class="address-mobile-list">
+          <a class="address-mobile-mail link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+
+      <ul class="list-media-mobile list">
+        <li class="item-media-mobile">
+          <a
+            href="https://www.instagram.com/"
+            class="media-mobile-link"
+            aria-label="logo instagram"
+            target="_blank"
+          >
+            <svg class="icon-media-mobile" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="item-media-mobile">
+          <a
+            href="https://www.twitter.com/"
+            class="media-mobile-link"
+            aria-label="logo twitter"
+            target="_blank"
+          >
+            <svg class="icon-media-mobile" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="item-media-mobile">
+          <a
+            href="https://www.facebook.com/"
+            class="media-mobile-link"
+            aria-label="logo facebook"
+            target="_blank"
+          >
+            <svg class="icon-media-mobile" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="item-media-mobile">
+          <a
+            href="https://www.linkedin.com/"
+            class="media-mobile-link"
+            aria-label="logo linkedin"
+            target="_blank"
+          >
+            <svg class="icon-media-mobile" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
     <!-- *Модалка старый вариант -->
     <!-- <form class="modal-form" name="modal_form" autocomplete="on">
             <label class="modal-form-label">
@@ -690,7 +816,13 @@
             <button class="modal-form-button" type="submit">Send</button>
           </form> -->
     <!-- *Модалка -->
-
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
