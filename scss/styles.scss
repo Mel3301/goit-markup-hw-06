@@ -86,9 +86,13 @@ body {
 
 .h-one {
   color: $white-background-color;
-  font-size: 56px;
+  font-weight: 700;
+  font-size: 36px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
+  max-width: 320px;
+  margin: 0 auto;
 }
 
 .h-two {
@@ -245,16 +249,6 @@ body {
         url(../images/peopleoffice_desk@2x.jpg);
     }
   }
-}
-
-.h-one {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  max-width: 320px;
-  margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
