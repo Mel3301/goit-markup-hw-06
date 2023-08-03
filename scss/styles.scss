@@ -445,6 +445,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
+  text-align: left;
 }
 
 @media only screen and (min-width: 1158px) {
@@ -644,21 +645,22 @@ body {
   padding-right: 0;
   padding-bottom: 32px;
   padding-left: 0;
-}
-.h-three {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-}
-.goal-p {
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
+
+  .h-three {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+  }
+  .goal-p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+  }
 }
 
 // !------------------------------------------------------------------------------
