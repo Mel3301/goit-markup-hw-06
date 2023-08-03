@@ -30,10 +30,19 @@ $secondary-font: "Raleway", sans-serif;
 // !------------------------------------------------------------
 // !------------------------------------------------------------
 
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: $primary-font;
   color: $text-color;
   background-color: $white-background-color;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
   margin: 0 auto;
 }
 
