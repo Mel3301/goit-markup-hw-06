@@ -283,6 +283,11 @@ body {
   text-transform: capitalize;
 }
 
+@media screen and (max-width: 428px) {
+  .address-mobile-tel {
+    font-size: 24px;
+  }
+}
 .address-mobile-mail {
   color: #434455;
   font-size: 20px;
@@ -1043,13 +1048,14 @@ body {
 }
 
 .projects-section {
-  padding: 96px 0 120px 0;
+  padding: 48px 0;
 }
 .projects-section .projects-list {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 24px;
-  margin-bottom: 72px;
+  margin-bottom: 48px;
+  flex-wrap: wrap;
 }
 .projects-section .projects-list .portfolio-button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1058,6 +1064,24 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .projects-section {
+    padding: 64px 0 96px 0;
+  }
+  .projects-section .projects-list {
+    margin-bottom: 64px;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .projects-section {
+    padding: 100px 0 120px 0;
+  }
+  .projects-section .projects-list {
+    margin-bottom: 72px;
+    justify-content: center;
+  }
+}
 .projects-card {
   display: flex;
   flex-wrap: wrap;
@@ -1067,10 +1091,25 @@ body {
 }
 
 .projects-card-list {
-  width: calc((100% - 48px) / 3);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  max-width: 100%;
+  flex-shrink: 1;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .projects-card {
+    row-gap: 72px;
+  }
+  .projects-card-list {
+    width: calc((100% - 24px) / 2);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+@media screen and (min-width: 1158px) {
+  .projects-card-list {
+    width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
 .portfolio-card-link {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1086,6 +1125,7 @@ body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  max-width: 100%;
 }
 .projects-card-list-content .h-two-portfolio {
   margin-bottom: 8px;
@@ -1243,7 +1283,7 @@ body {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
+  color: rgba(46, 47, 66, 0.15);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;

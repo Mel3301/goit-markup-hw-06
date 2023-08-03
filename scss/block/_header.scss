@@ -249,6 +249,13 @@
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+
+@media screen and (max-width: 428px) {
+  .address-mobile-tel {
+    font-size: 24px;
+  }
+}
+
 .address-mobile-mail {
   color: $text-color;
   font-size: 20px;
@@ -285,7 +292,7 @@
     fill: $white-background-color;
   }
 }
-// test
+//
 //? /* До адаптива */
 // .header {
 //   background-color: $white-background-color;
