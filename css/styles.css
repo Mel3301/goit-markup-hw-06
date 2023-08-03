@@ -26,9 +26,7 @@ body {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .header-div {
@@ -576,8 +574,7 @@ body {
   letter-spacing: 0.04em;
   height: 56px;
 }
-.main-button:hover,
-.main-button:focus {
+.main-button:hover, .main-button:focus {
   background-color: #404bbf;
 }
 
@@ -594,8 +591,7 @@ body {
   border-radius: 4px;
   border: 1px solid #e7e9fc;
 }
-.portfolio-button:hover,
-.portfolio-button:focus {
+.portfolio-button:hover, .portfolio-button:focus {
   background-color: #404bbf;
   color: #ffffff;
   border: 1px solid transparent;
@@ -608,11 +604,7 @@ body {
   padding-right: 0;
   padding-bottom: 112px;
   padding-left: 0;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/peopleoffice_mob@1x.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice_mob@1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -626,58 +618,29 @@ body {
     padding-bottom: 188px;
   }
 }
-@media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .welcome-page {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/peopleoffice_mob@2x.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice_mob@2x.jpg);
   }
 }
 @media only screen and (min-width: 429px) {
   .welcome-page {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/peolpeoffice_tab@1x.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peolpeoffice_tab@1x.jpg);
   }
 }
-@media only screen and (min-width: 429px) and (min-device-pixel-ratio: 2),
-  only screen and (min-width: 429px) and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (min-width: 429px) and (min-resolution: 192dpi),
-  only screen and (min-width: 429px) and (min-resolution: 2dppx) {
+@media only screen and (min-width: 429px) and (min-device-pixel-ratio: 2), only screen and (min-width: 429px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 429px) and (min-resolution: 192dpi), only screen and (min-width: 429px) and (min-resolution: 2dppx) {
   .welcome-page {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/peolpeoffice_tab@2x.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peolpeoffice_tab@2x.jpg);
   }
 }
 @media only screen and (min-width: 769px) {
   .welcome-page {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/peopleoffice_desk@1x.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice_desk@1x.jpg);
   }
 }
-@media only screen and (min-width: 769px) and (min-device-pixel-ratio: 2),
-  only screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (min-width: 769px) and (min-resolution: 192dpi),
-  only screen and (min-width: 769px) and (min-resolution: 2dppx) {
+@media only screen and (min-width: 769px) and (min-device-pixel-ratio: 2), only screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 769px) and (min-resolution: 192dpi), only screen and (min-width: 769px) and (min-resolution: 2dppx) {
   .welcome-page {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/peopleoffice_desk@2x.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice_desk@2x.jpg);
   }
 }
 .h-one {
@@ -685,19 +648,17 @@ body {
   font-size: 36px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   max-width: 320px;
   margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
-  .hero-title {
+  .h-one {
     font-size: 56px;
-    letter-spacing: 1.12px;
     max-width: 496px;
   }
 }
-/* mobile */
 .main-button {
   display: block;
   min-width: 169px;
@@ -727,7 +688,7 @@ body {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   -webkit-clip-path: inset(100%);
-  clip-path: inset(100%);
+          clip-path: inset(100%);
   white-space: nowrap;
   border: 0;
 }
@@ -750,7 +711,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     -moz-column-gap: 24px;
-    column-gap: 24px;
+         column-gap: 24px;
     row-gap: 72px;
   }
 }
@@ -905,7 +866,7 @@ body {
     flex-wrap: wrap;
     row-gap: 64px;
     -moz-column-gap: 24px;
-    column-gap: 24px;
+         column-gap: 24px;
     align-items: center;
   }
 }
@@ -918,9 +879,7 @@ body {
 .employee-card {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   max-width: 264px;
 }
 
@@ -1054,8 +1013,7 @@ body {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   color: #8e8f99;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon {
@@ -1085,22 +1043,17 @@ body {
   margin-bottom: 72px;
 }
 .projects-section .projects-list .portfolio-button {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.projects-section .projects-list .portfolio-button:hover,
-.projects-section .projects-list .portfolio-button:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+.projects-section .projects-list .portfolio-button:hover, .projects-section .projects-list .portfolio-button:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .projects-card {
   display: flex;
   flex-wrap: wrap;
   -moz-column-gap: 24px;
-  column-gap: 24px;
+       column-gap: 24px;
   row-gap: 48px;
 }
 
@@ -1113,13 +1066,10 @@ body {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-card-link:hover,
-.portfolio-card-link:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.portfolio-card-link:hover, .portfolio-card-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.portfolio-card-link:hover .overlay-p,
-.portfolio-card-link:focus .overlay-p {
+.portfolio-card-link:hover .overlay-p, .portfolio-card-link:focus .overlay-p {
   transform: translateY(0%);
 }
 
@@ -1159,8 +1109,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-hidden {
@@ -1176,8 +1125,7 @@ body {
   width: 100%;
   min-height: 584px;
   background: #fcfcfc;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1208,14 +1156,12 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-button .icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.close-button:hover,
-.close-button:focus {
+.close-button:hover, .close-button:focus {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
@@ -1321,9 +1267,7 @@ body {
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1357,8 +1301,6 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-form-button:hover,
-.modal-form-button:focus {
+.modal-form-button:hover, .modal-form-button:focus {
   background-color: #404bbf;
-} /*# sourceMappingURL=styles.css.map */
-/* test */
+}/*# sourceMappingURL=styles.css.map */
